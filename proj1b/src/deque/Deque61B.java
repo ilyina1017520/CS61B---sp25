@@ -77,4 +77,8 @@ public interface Deque61B<T> {
      * @return element at {@code index} in the deque
      */
     T getRecursive(int index);
+
+    boolean[] resizeing();
+
+    boolean[] resizing();
 }
